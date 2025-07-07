@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dQmZJI9MSKw=",
+  "dgSpecHash": "1WGEqOyho3M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Layze\\Documents\\GitHub\\CsharpLearn\\CsharpLearn\\AetherFlow\\Tests\\Tests.csproj",
+  "projectFilePath": "C:\\Users\\Layze\\Documents\\GitHub\\CsharpLearn\\CsharpLearn\\AetherFlow\\tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Layze\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Layze\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
