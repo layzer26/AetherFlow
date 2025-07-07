@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1WGEqOyho3M=",
+  "dgSpecHash": "oSWLIEtIr9U=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Layze\\Documents\\GitHub\\CsharpLearn\\CsharpLearn\\AetherFlow\\tests\\Tests.csproj",
+  "projectFilePath": "C:\\Users\\Layze\\Documents\\GitHub\\AetherFlow\\tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Layze\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Layze\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
@@ -92,7 +92,10 @@
     "C:\\Users\\Layze\\.nuget\\packages\\xunit.core\\2.5.3\\xunit.core.2.5.3.nupkg.sha512",
     "C:\\Users\\Layze\\.nuget\\packages\\xunit.extensibility.core\\2.5.3\\xunit.extensibility.core.2.5.3.nupkg.sha512",
     "C:\\Users\\Layze\\.nuget\\packages\\xunit.extensibility.execution\\2.5.3\\xunit.extensibility.execution.2.5.3.nupkg.sha512",
-    "C:\\Users\\Layze\\.nuget\\packages\\xunit.runner.visualstudio\\2.5.3\\xunit.runner.visualstudio.2.5.3.nupkg.sha512"
+    "C:\\Users\\Layze\\.nuget\\packages\\xunit.runner.visualstudio\\2.5.3\\xunit.runner.visualstudio.2.5.3.nupkg.sha512",
+    "C:\\Users\\Layze\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.17\\microsoft.netcore.app.ref.8.0.17.nupkg.sha512",
+    "C:\\Users\\Layze\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.17\\microsoft.windowsdesktop.app.ref.8.0.17.nupkg.sha512",
+    "C:\\Users\\Layze\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.17\\microsoft.aspnetcore.app.ref.8.0.17.nupkg.sha512"
   ],
   "logs": []
 }

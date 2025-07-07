@@ -1,0 +1,68 @@
+# Build Folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code Settings
+.vscode/
+
+# Rider Settings
+.idea/
+
+# Build results
+*.dll
+*.exe
+*.app
+*.pdb
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+
+# Publish folder
+publish/
+out/
+
+# Logs
+*.log
+
+# dotnet CLI artifacts
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+*.nuspec
+
+# Optional: OS-specific ignores
+# macOS
+.DS_Store
+
+# Linux
+*.swp
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary Files
+*.tmp
+*.bak
+
+# dotenv/environment configs
+.env
+.env.*
+
+# Ignore zipped debug or artifact exports
+*.zip

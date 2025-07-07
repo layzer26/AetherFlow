@@ -30,7 +30,11 @@ namespace AetherFlow.Core
 
         public Zone GetZone(string name)
         {
-            return zones.TryGetValue(name, out var zone) ? zone : null;
+            if (!zones.ContainsKey(name))
+                throw new KeyNotFoundException($"Zone '{name}' not found.");
+
+            return zones[name];
+
         }
 
         public IEnumerable<Zone> Zones => zones.Values;
