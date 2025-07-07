@@ -1,0 +1,11 @@
+C:\Users\Layze\Documents\GitHub\CsharpLearn\Csharplearn\Aetherflow\core\bin\Debug\net8.0\core.deps.json
+C:\Users\Layze\Documents\GitHub\CsharpLearn\Csharplearn\Aetherflow\core\bin\Debug\net8.0\core.dll
+C:\Users\Layze\Documents\GitHub\CsharpLearn\Csharplearn\Aetherflow\core\bin\Debug\net8.0\core.pdb
+C:\Users\Layze\Documents\GitHub\CsharpLearn\Csharplearn\Aetherflow\core\obj\Debug\net8.0\core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Layze\Documents\GitHub\CsharpLearn\Csharplearn\Aetherflow\core\obj\Debug\net8.0\core.AssemblyInfoInputs.cache
+C:\Users\Layze\Documents\GitHub\CsharpLearn\Csharplearn\Aetherflow\core\obj\Debug\net8.0\core.AssemblyInfo.cs
+C:\Users\Layze\Documents\GitHub\CsharpLearn\Csharplearn\Aetherflow\core\obj\Debug\net8.0\core.csproj.CoreCompileInputs.cache
+C:\Users\Layze\Documents\GitHub\CsharpLearn\Csharplearn\Aetherflow\core\obj\Debug\net8.0\core.dll
+C:\Users\Layze\Documents\GitHub\CsharpLearn\Csharplearn\Aetherflow\core\obj\Debug\net8.0\refint\core.dll
+C:\Users\Layze\Documents\GitHub\CsharpLearn\Csharplearn\Aetherflow\core\obj\Debug\net8.0\core.pdb
+C:\Users\Layze\Documents\GitHub\CsharpLearn\Csharplearn\Aetherflow\core\obj\Debug\net8.0\ref\core.dll
