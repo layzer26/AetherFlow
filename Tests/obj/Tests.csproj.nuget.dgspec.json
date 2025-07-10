@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/app/Tests/Tests.csproj": {}
+    "/workspaces/AetherFlow/Tests/Tests.csproj": {}
   },
   "projects": {
-    "/app/Tests/Tests.csproj": {
+    "/workspaces/AetherFlow/Tests/Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/app/Tests/Tests.csproj",
+        "projectUniqueName": "/workspaces/AetherFlow/Tests/Tests.csproj",
         "projectName": "Tests",
-        "projectPath": "/app/Tests/Tests.csproj",
+        "projectPath": "/workspaces/AetherFlow/Tests/Tests.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/app/Tests/obj/",
+        "outputPath": "/workspaces/AetherFlow/Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/root/.nuget/NuGet/NuGet.Config"

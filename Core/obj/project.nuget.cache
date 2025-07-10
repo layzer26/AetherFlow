@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ldvgayQp6oQ=",
+  "dgSpecHash": "xMDBWyCZWOU=",
   "success": true,
-  "projectFilePath": "/app/core/core.csproj",
+  "projectFilePath": "/workspaces/AetherFlow/core/core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

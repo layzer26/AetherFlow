@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/app/core/core.csproj": {}
+    "/workspaces/AetherFlow/core/core.csproj": {}
   },
   "projects": {
-    "/app/core/core.csproj": {
+    "/workspaces/AetherFlow/core/core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/app/core/core.csproj",
+        "projectUniqueName": "/workspaces/AetherFlow/core/core.csproj",
         "projectName": "core",
-        "projectPath": "/app/core/core.csproj",
+        "projectPath": "/workspaces/AetherFlow/core/core.csproj",
         "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/app/core/obj/",
+        "outputPath": "/workspaces/AetherFlow/core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/root/.nuget/NuGet/NuGet.Config"
