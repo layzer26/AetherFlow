@@ -21,7 +21,7 @@ namespace AetherFlow.Tests
 
 
             // Act
-            var agent = new Agent("Agent Name:", AgentRole.Duelist, 100, zone, deck);
+            var agent = new Agent("Agent Name: ", AgentRole.Duelist, 100, zone, deck);
 
             // Assert
             Assert.Equal("Agent Name: ", agent.Name);
