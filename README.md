@@ -1,37 +1,39 @@
-# 🌌 ValoCard: Turn-Based Tactical Card Game Backend
+# 🌌 AetherFlow: Turn-Based Tactical Card Game Backend
 
 ##  Project Overview
 
-**ValoCard** is a **turn-based card game backend** inspired by the team-based tactics of **Valorant** and the strategic deck mechanics of **Clash of Clans**. Designed using **Clean Architecture**, the backend prioritizes modularity, testability, and separation of concerns.
+**AetherFlow** is a **turn-based card game backend** inspired by the team-based tactics of **Valorant** and the strategic deck mechanics of **Clash of Clans**. Designed using **Clean Architecture**, the backend prioritizes modularity, testability, and separation of concerns.
 
 The game is built around players deploying Agents with custom mini-decks to control zones, deploy abilities, plant or defuse spikes, and eliminate opposing forces. Gameplay emphasizes **strategy over RNG**.
 
-The overall essence of the game is planned to be relaxing and strategic. I'm hoping to be able to complete the plan with a balance of being able to play slightly distracted while rewarding players that are actively being strategic. 
-Hoepfully the agent base will be able to be vast enough to minimise the selection of the same agent decks. But As this is one of my first ideas, i suppose that may change as time goes on.
+The overall essence of the game is planned to be relaxing and strategic. I'm hoping to complete the design with a balance that allows players to enjoy it casually, while also rewarding deep strategic thinking. Ideally, the agent pool will be large enough to minimize repetitive deck selections — although that may evolve as development continues.
 
 **Incomplete Idea**
-- Still trying to figure out if there will be signals to identify occupation of zones in order to strategise a counter plan
-- Current Thought:  sending signals for information 
-   - abilities can supress certain signals 
-   - allow players to restrategise 
-- Past Thought
-   - distribute the map in a way that allows cards to autonomously take space , although this conflicts the idea of turn base, i'm still weighing up the idea to use the clash of clans style of game play or not.
-
-   
+- Still trying to decide whether zone occupation should generate "signals" that opponents can use to strategize
+- Current thought:
+   - Agents or zones emit signals for information
+   - Some abilities can suppress signals
+   - Signals influence player strategy in real-time
+- Past idea:
+   - Cards autonomously taking space (Clash of Clans style)
+   - But that may conflict with the turn-based concept — still undecided
 
 ---
 
 ##  Game Summary
 
-* **2 Players:** Attackers vs. Defenders
-* **Each controls \~5 Agents** with unique ability decks
-* **Win Conditions:** Eliminate all opponents, plant & detonate spike, defuse spike
+* **2 Players:** Attackers vs. Defenders  
+* **Each controls ~5 Agents** with unique ability decks  
+* **Win Conditions:**  
+   - Eliminate all enemy agents  
+   - Plant and detonate spike  
+   - Defuse spike
 
 ---
 
 ##  Core Gameplay Entities
 
-###  Agent
+### Agent
 
 * `Name`
 * `AgentRole`: Duelist, Controller, Initiator, Sentinel
@@ -39,7 +41,7 @@ Hoepfully the agent base will be able to be vast enough to minimise the selectio
 * `CurrentZone`
 * `MiniDeck`: 3 ability cards + 1 ultimate card
 
-###  Card
+### Card
 
 * `Name`
 * `EffectType`: Damage, Heal, Stun, Smoke, Buff, etc.
@@ -49,25 +51,27 @@ Hoepfully the agent base will be able to be vast enough to minimise the selectio
 * `RngModifier`: Indicates if RNG involved
 * `IsUltimate`: Boolean
 
-###  Zone
+### Zone
 
 * `ZoneName`
 * `Neighbors`: Adjacent Zones (for graph navigation)
 * `ControlStatus`: None, Attacker, Defender
 
-### Match state
+### Match State
 
-* Turn-based
-* Draw > Play Card(s) > Move/Plant/Defuse > End Turn
-* Deterministic damage/resolution; some abilities use RNG (e.g., smokes)
+* Turn-based flow:
+   1. Draw  
+   2. Play Card(s)  
+   3. Move / Plant / Defuse  
+   4. End Turn
+* Deterministic damage resolution; some abilities may include RNG (e.g. smokes)
 
-### Action Result
-* result of an ability card action 
-* still trying to conceptualise fully what i want this class to take care of 
+### ActionResult
 
+* Represents the outcome of an ability or card action
+* Still conceptualizing what data and effects this class should encapsulate
 
 ---
-
 ##  Project Structure
 
 ```
@@ -77,23 +81,28 @@ ValoCard/
 ├── Map/                 # ZoneGraph + Control logic
 ├── Tests/               # xUnit or NUnit test project
 ├── CLI/                 # Console-based testing and interface
-└── ValoCard.sln
+└── AetherFlow.sln
 ```
+
 
 ---
 
 ##  Next Steps
 
-~~1. Build `ZoneGraph` class to manage zone connections~~
-2. Fully implement the Core folder 
-3. Build `MatchEngine` to handle turns, spike   logic, and win conditions
-4. Create `CardResolver` to apply card effects
+~~1. Build `ZoneGraph` class to manage zone connections~~  
+2. Fully implement the Core folder  
+3. Build `MatchEngine` to handle turns, spike logic, and win conditions  
+4. Create `CardResolver` to apply card effects  
 5. Add test coverage for:
+   - Agent actions  
+   - Card resolution  
+   - Spike win/defuse mechanics  
+6. Re-evaluate full gameplay design and mechanics  
 
-   * Agent actions
-   * Card resolution
-   * Spike win/defuse mechanics
-6. Re-Evaulate full gameplay plan etc 
+---
 
-## LICENSE 
-This project is not open-source. All rights reserved. Do not reuse this code or its ideas without permission.
+## LICENSE
+
+This project is **not open-source**. All rights reserved.  
+Do not reuse this code or its ideas without explicit permission from the author.
+
