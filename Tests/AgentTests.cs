@@ -1,8 +1,8 @@
-using System.Collections.Generic;
-using Xunit;
-using Xunit.Abstractions;
-using AetherFlow.Core;
-using AetherFlow.Core.Enums;
+using System.Collections.Generic;      // for List<T>
+using Xunit;                           // for [Fact], FactAttribute, Assert
+using Xunit.Abstractions;              // for ITestOutputHelper
+using AetherFlow.Core;                 // for Agent, Zone, etc.
+using AetherFlow.Core.Enums;           // for AgentRole, EffectType, TargetType
 
 namespace AetherFlow.Tests
 {
