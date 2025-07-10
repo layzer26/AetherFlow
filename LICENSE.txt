@@ -1,0 +1,9 @@
+Copyright (c) 2025 Liam Naidoo
+
+All rights reserved.
+
+Unauthorized copying, modification, distribution, or use of this software, via any medium, is strictly prohibited.
+
+This software and its source code are the intellectual property of the author and may not be used for commercial or non-commercial purposes without explicit written permission.
+
+To request a license, contact: [GitHub: @Layzer26]
