@@ -95,4 +95,5 @@ ValoCard/
    * Spike win/defuse mechanics
 6. Re-Evaulate full gameplay plan etc 
 
-
+## LICENSE 
+This project is not open-source. All rights reserved. Do not reuse this code or its ideas without permission.
