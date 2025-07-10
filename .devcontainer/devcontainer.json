@@ -1,0 +1,19 @@
+{
+  "name": "AetherFlow Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:8.0",
+  "features": {
+    "ghcr.io/devcontainers/features/dotnet:1": {
+      "version": "8.0"
+    }
+  },
+  "postCreateCommand": "dotnet restore",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csharp",
+        "k--kato.docomment",
+        "editorconfig.editorconfig"
+      ]
+    }
+  }
+}

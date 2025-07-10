@@ -54,7 +54,7 @@ The overall essence of the game is planned to be relaxing and strategic. I'm hop
 ### Zone
 
 * `ZoneName`
-* `Neighbors`: Adjacent Zones (for graph navigation)
+* `Neighbours`: Adjacent Zones (for graph navigation)
 * `ControlStatus`: None, Attacker, Defender
 
 ### Match State
@@ -75,7 +75,7 @@ The overall essence of the game is planned to be relaxing and strategic. I'm hop
 ##  Project Structure
 
 ```
-ValoCard/
+AetherFlow/
 ├── Core/                # Models (Agent, Card, Zone, Enums, MatchState,ActionResult)
 ├── Engine/              # Game logic (MatchEngine, TurnManager)
 ├── Map/                 # ZoneGraph + Control logic
