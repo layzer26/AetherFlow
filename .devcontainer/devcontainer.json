@@ -1,12 +1,9 @@
 {
-  "name": "AetherFlow Dev Container",
-  "image": "mcr.microsoft.com/devcontainers/dotnet:8.0",
-  "features": {
-    "ghcr.io/devcontainers/features/dotnet:1": {
-      "version": "8.0"
-    }
-  },
-  "postCreateCommand": "dotnet restore",
+  "name": "AetherFlow Codespace",
+  "dockerFile": "Dockerfile",
+  "context": "..",
+  "workspaceFolder": "/workspaces/AetherFlow",
+  "postCreateCommand": "dotnet restore AetherFlow.sln",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -15,5 +12,7 @@
         "editorconfig.editorconfig"
       ]
     }
-  }
+  },
+  "forwardPorts": [],
+  "features": {}
 }
