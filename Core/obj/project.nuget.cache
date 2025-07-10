@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3tsCBRcG8dw=",
+  "dgSpecHash": "ldvgayQp6oQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Layze\\Documents\\GitHub\\AetherFlow\\Core\\Core.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Layze\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.17\\microsoft.netcore.app.ref.8.0.17.nupkg.sha512",
-    "C:\\Users\\Layze\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.17\\microsoft.windowsdesktop.app.ref.8.0.17.nupkg.sha512",
-    "C:\\Users\\Layze\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.17\\microsoft.aspnetcore.app.ref.8.0.17.nupkg.sha512"
-  ],
+  "projectFilePath": "/app/core/core.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
