@@ -1708,6 +1708,16 @@
         "build": {
           "build/net6.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/core.dll": {}
+        }
       }
     }
   },
@@ -5497,11 +5507,17 @@
         "xunit.runner.visualstudio.2.5.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "core/1.0.0": {
+      "type": "project",
+      "path": "../core/core.csproj",
+      "msbuildProject": "../core/core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.NET.Test.Sdk >= 17.8.0",
+      "core >= 1.0.0",
       "coverlet.collector >= 6.0.0",
       "xunit >= 2.5.3",
       "xunit.runner.visualstudio >= 2.5.3"
@@ -5531,7 +5547,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/workspaces/AetherFlow/core/core.csproj": {
+              "projectPath": "/workspaces/AetherFlow/core/core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

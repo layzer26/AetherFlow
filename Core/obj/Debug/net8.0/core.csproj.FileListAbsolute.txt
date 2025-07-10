@@ -34,3 +34,15 @@ C:/Users/Layze/Documents/GitHub/AetherFlow/Core/obj/Debug/net8.0/ref/Core.dll
 /app/core/obj/Debug/net8.0/refint/core.dll
 /app/core/obj/Debug/net8.0/core.pdb
 /app/core/obj/Debug/net8.0/ref/core.dll
+/workspaces/AetherFlow/core/bin/Debug/net8.0/core.deps.json
+/workspaces/AetherFlow/core/bin/Debug/net8.0/core.dll
+/workspaces/AetherFlow/core/bin/Debug/net8.0/core.pdb
+/workspaces/AetherFlow/core/obj/Debug/net8.0/core.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/AetherFlow/core/obj/Debug/net8.0/core.AssemblyInfoInputs.cache
+/workspaces/AetherFlow/core/obj/Debug/net8.0/core.AssemblyInfo.cs
+/workspaces/AetherFlow/core/obj/Debug/net8.0/core.csproj.CoreCompileInputs.cache
+/workspaces/AetherFlow/core/obj/Debug/net8.0/core.sourcelink.json
+/workspaces/AetherFlow/core/obj/Debug/net8.0/core.dll
+/workspaces/AetherFlow/core/obj/Debug/net8.0/refint/core.dll
+/workspaces/AetherFlow/core/obj/Debug/net8.0/core.pdb
+/workspaces/AetherFlow/core/obj/Debug/net8.0/ref/core.dll

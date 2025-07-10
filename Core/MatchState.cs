@@ -1,38 +1,27 @@
-
-using System.Runtime.InteropServices;
-using AetherFlow.Core.Enums;
+using System.Collections.Generic;
 
 namespace AetherFlow.Core
 {
-
     public class MatchState
     {
-        //Current status of the match 
-        public Team TeamA { get; set; }
-        public Team TeamB { get; set; }
+        public List<Agent> TeamA { get; set; }
+        public List<Agent> TeamB { get; set; }
         public ZoneGraph Map { get; set; }
-        public int Turn { get; set; }
-        public Team CurrentTeam { get; set; }
+        public int TurnNumber { get; set; }
+        public List<Agent> CurrentTeam { get; set; }
         public bool IsSpikePlanted { get; set; }
-        public Zone SpikeZone { get; set; }
+        public Zone? SpikeZone { get; set; }
 
-        public MatchState()
+
+        public MatchState(List<Agent> teamA, List<Agent> teamB, ZoneGraph map)
         {
-            
-                TeamA = new Teams(TeamNames.TeamA, new List<Agent>());
-                TeamB = new Teams(TeamNames.TeamB, new List<Agent>());
-
-
-                Map = new ZoneGraph();
-                CurrentTeam = TeamA;
-                SpikeZone = new Zone();
-                Turn = 0;
-                IsSpikePlanted = false;
-
-            
-
-
-
-
-        }//Match State class 
-    }//namespace
+            TeamA = teamA;
+            TeamB = teamB;
+            Map = map;
+            TurnNumber = 0;
+            CurrentTeam = TeamA;
+            IsSpikePlanted = false;
+            SpikeZone = null;
+        }
+    }
+}
