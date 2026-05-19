@@ -12,7 +12,9 @@ namespace AetherFlow.Core
         public bool IsUltimate { get; set; }
         public bool HasRngModifier { get; set; }
 
-        public Card(string name, EffectType effectType, int power, int cost, TargetType targetType, bool isUltimate, bool hasRng)
+        public int Range { get; set; }  // max zone-graph hops to target (1 = adjacent)
+
+        public Card(string name, EffectType effectType, int power, int cost, TargetType targetType, bool isUltimate, bool hasRng, int range = 1)
         {
             Name = name;
             EffectType = effectType;
@@ -21,6 +23,7 @@ namespace AetherFlow.Core
             TargetType = targetType;
             IsUltimate = isUltimate;
             HasRngModifier = hasRng;
+            Range = range;
         }
     }
 }
